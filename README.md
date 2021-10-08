@@ -2,7 +2,7 @@
 
 Repository with all needed to run the barcamp.
 
-##What are we going to do during the workshop?
+## What are we going to do during the workshop?
 
 - install python 
 - install jupyter notebook
@@ -50,7 +50,7 @@ from here on everything else will be done in the jupyter notebook.
 ## Disclaimer
 
 The above mentioned method is not recommended for active use in work enviroments. 
-Please use additional libraries like __pyenv__, __pipenv__ or __pip__. 
+Please use additional libraries like __pyenv__, __pipenv__ or __env__. 
 With these virtual enviroments can be created and used for different projects. The usage of a virtual enviroment per project 
 is __very__ pythonic and helps prevent usual problems like library incompatibilities.     
 
