@@ -32,7 +32,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 
 - Update brew 
 ```console
-$ brew update && brew doctor
+$ brew update
 ```
 
 - Install python 
@@ -45,12 +45,17 @@ $ brew install python
 $ brew install jupyter
 ```
 
+- Start jupyter lab
+```console
+$ jupyter lab
+```
+
 from here on everything else will be done in the jupyter notebook.
 
 ## Disclaimer
 
 The above mentioned method is not recommended for active use in work enviroments. 
-Please use additional libraries like __pyenv__, __pipenv__ or __env__. 
+Please use additional libraries like __pyenv__, __pipenv__ or __venv__. 
 With these virtual enviroments can be created and used for different projects. The usage of a virtual enviroment per project 
 is __very__ pythonic and helps prevent usual problems like library incompatibilities.     
 
